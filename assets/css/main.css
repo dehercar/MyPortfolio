@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #0d215c;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #4260a6, #4eb78d);
+				background-image: -webkit-linear-gradient(to right, #4260a6, #4eb78d);
+				background-image: -ms-linear-gradient(to right, #4260a6, #4eb78d);
+				background-image: linear-gradient(to right, #4260a6, #4eb78d);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #000000 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #000000;
 		}
 
 		select:focus::-ms-value {
@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #4eb7b5;
 			content: '\f00c';
 		}
 
@@ -2536,7 +2536,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #253762;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2544,7 +2544,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #000000;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
@@ -2552,11 +2552,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #3b8e8e;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #317a7a;
 				}
 
 /* Image */
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(40, 51, 104, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3240,27 +3240,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #253762;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #1b2746;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #0f549e;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #0f549e;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #3b8e8e;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #327676;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #0f549e;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3429,6 +3429,7 @@ input, select, textarea {
 
 			#header {
 				padding: 1em 2em;
+				letter-spacing: 0.25em;
 			}
 
 		}
@@ -3439,6 +3440,7 @@ input, select, textarea {
 				display: block;
 				padding: 0 2em;
 				text-align: left;
+				letter-spacing: 0.25em;
 			}
 
 				#header .title {
@@ -3524,7 +3526,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #1e2c4d;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3763,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #204076;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #4260a6, #4eb78d);
+				background-image: -webkit-linear-gradient(to right, #4260a6, #4eb78d);
+				background-image: -ms-linear-gradient(to right, #4260a6, #4eb78d);
+				background-image: linear-gradient(to right, #4260a6, #4eb78d);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3859,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #71b89c;
 						}
 
 		}
@@ -3865,8 +3867,62 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				height: 3.5em;
+				left: 0;
+				line-height: 3.5em;
+				overflow: hidden;
+				padding: 0;
+				text-align: center;
+				top: 0;
+				width: 100%;
 			}
+
+				#sidebar > .inner {
+					-moz-flex-direction: row;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
+					-moz-align-items: -moz-stretch;
+					-webkit-align-items: -webkit-stretch;
+					-ms-align-items: -ms-stretch;
+					align-items: stretch;
+					height: inherit;
+					line-height: inherit;
+				}
+
+				#sidebar nav {
+					height: inherit;
+					line-height: inherit;
+				}
+
+					#sidebar nav ul {
+						display: -moz-flex;
+						display: -webkit-flex;
+						display: -ms-flex;
+						display: flex;
+						height: inherit;
+						line-height: inherit;
+						margin: 0;
+					}
+
+						#sidebar nav ul li {
+							display: block;
+							height: inherit;
+							line-height: inherit;
+							margin: 0 0 0 .7em;
+							padding: 0;
+						}
+
+					#sidebar nav a {
+						height: inherit;
+						line-height: inherit;
+						padding: 0;
+					}
+
+						#sidebar nav a:after {
+							background-image: none;
+							background-color: #71b89c;
+						}
 
 		}
 
